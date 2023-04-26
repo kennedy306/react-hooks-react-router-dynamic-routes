@@ -6,6 +6,7 @@ function MoviesPage({ movies }) {
   return (
     <div>
       <MoviesList movies={movies} />
+      <Route movies={movies}/>
     </div>
   );
 }
